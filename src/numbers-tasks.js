@@ -605,7 +605,7 @@ function getIntegerPartNumber(number) {
  * 0.1, 0.2, 0.3 => 0.6
  */
 function getSumOfNumbers(x1, x2, x3) {
-  return (x1 + x2 + x3).toFixed(1);
+  return (x2 + x1 + x3).toFixed(1);
 }
 
 /**
@@ -652,7 +652,7 @@ function getRandomInteger(min, max) {
  * 3, 4 => 5
  */
 function getHypotenuse(a, b) {
-  Returns the sum of numbers.
+  return Math.hypot(a, b);
 }
 
 /**
